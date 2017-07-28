@@ -1,0 +1,14 @@
+{% load i18n static %}<!DOCTYPE html>{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="{{ STATIC_URL }}framework/jquery/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}framework/bootstrap-3.3.7/js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}framework/bootstrap-3.3.7/css/bootstrap.css"/>
+    {% block login_check %}{% endblock %}{% block extra_script %}{% endblock %}
+    <title>{% block title %}{% trans 'DefaultTitle' %}{% endblock %}</title>
+</head>
+<body{% block body_class %}{% endblock %}>
+{% block body %}{% trans 'Here is Web Body!' %}{% endblock %}
+</body>
+</html>

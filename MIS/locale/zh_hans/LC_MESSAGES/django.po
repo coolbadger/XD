@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-25 08:54+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: MIS/admin.py:7
+msgid "Badger Admin Site"
+msgstr "Badger管理站点"
+
+#: MIS/models.py:9
+msgid "Private Comp"
+msgstr "私营企业"
+
+#: MIS/models.py:10
+msgid "State-Owned Comp."
+msgstr "国营企业"
+
+#: MIS/models.py:11
+msgid "Governmental Agencies"
+msgstr "政府机构"
+
+#: MIS/models.py:12
+msgid "Institutions"
+msgstr "学校、社会机构"
+
+#: MIS/models.py:13
+msgid "Listed Comp."
+msgstr "上市公司"
+
+#: MIS/models.py:14
+msgid "PLC (Public Limited Company)"
+msgstr "股票上市公司"
+
+#: MIS/models.py:15
+msgid "Startup Comp."
+msgstr "创业公司"
+
+#: MIS/models.py:16
+msgid "Foreign Comp. (Eur./ N.Amerian )"
+msgstr "外资公司（欧美）"
+
+#: MIS/models.py:17
+msgid "Foreign Comp. (Others)"
+msgstr "外资公司（其他）"
+
+#: MIS/models.py:18
+msgid "Joint Ventures (JV)"
+msgstr "合资公司"
+
+#: MIS/models.py:19
+msgid "Rep. (Representative) Office of Foreign Comp."
+msgstr "外企代表公司"
+
+#: MIS/models.py:20
+msgid "NPO (non-profit organization)"
+msgstr "非盈利机构"
+
+#: MIS/models.py:21
+msgid "WFOE(Wholly Foreign Owned Enterprise)"
+msgstr "外商独资公司"
+
+#: MIS/models.py:35 MIS/models.py:36
+msgid "Company"
+msgstr "公司"
+
+#: MIS/models.py:53
+#, fuzzy
+#| msgid "Project"
+msgid "Project Name"
+msgstr "项目"
+
+#: MIS/models.py:56 MIS/models.py:57
+msgid "Project"
+msgstr "项目"
+
+#: MIS/templates/mis_base/base.html:3
+msgid "MIS"
+msgstr ""
+
+#: MIS/templates/mis_page/login.html:16
+msgid "Login MIS"
+msgstr "登陆MIS"
+
+#: MIS/templates/mis_page/login.html:37
+msgid "Login to MIS"
+msgstr "登陆到MIS"
+
+#: MIS/templates/mis_page/login.html:38
+msgid "Enter your username and password to log on:"
+msgstr "请输入用户名、密码登陆系统："
+
+#: MIS/templates/mis_page/login.html:48
+msgid "Username..."
+msgstr "用户名..."
+
+#: MIS/templates/mis_page/login.html:53
+msgid "Password..."
+msgstr "密码..."
+
+#: MIS/templates/mis_page/login.html:56
+msgid "Sign in!"
+msgstr "登陆！"

@@ -1,0 +1,14 @@
+{% load i18n %}
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="nav-close"><i class="fa fa-times-circle"></i>
+    </div>
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header">
+                {% include 'mis_component/index/nav_header.html' %}
+            </li>
+            {% include 'mis_component/index/nav_tree.html' %}
+
+        </ul>
+    </div>
+</nav>

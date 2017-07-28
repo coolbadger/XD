@@ -1,0 +1,38 @@
+{% load i18n %}
+<li>
+    <a class="J_menuItem" href="/mis/"><i class="fa fa-columns"></i> <span
+            class="nav-label">{% trans 'Master Page' %}</span></a>
+</li>
+
+<li>
+    <a href="#"><i class="fa fa-group"></i> <span class="nav-label">人员管理</span><span
+            class="fa arrow"></span></a>
+    <ul class="nav nav-second-level">
+        <li><a class="J_menuItem" href="/mis/person_list">人员</a>
+        </li>
+        <li>
+            <a href="#">组织机构 <span class="fa arrow"></span></a>
+            <ul class="nav nav-third-level">
+                <li><a class="J_menuItem" href="/mis/department">部门</a>
+                </li>
+                <li><a class="J_menuItem" href="/mis/post">职务</a>
+                </li>
+                <li><a class="J_menuItem" href="/mis/station">岗位</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+
+<li>
+    <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">信箱 </span><span
+            class="label label-warning pull-right">16</span></a>
+    <ul class="nav nav-second-level">
+        <li><a class="J_menuItem" href="mailbox.html">收件箱</a>
+        </li>
+        <li><a class="J_menuItem" href="mail_detail.html">查看邮件</a>
+        </li>
+        <li><a class="J_menuItem" href="mail_compose.html">写信</a>
+        </li>
+    </ul>
+</li>

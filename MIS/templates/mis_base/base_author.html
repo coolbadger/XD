@@ -1,0 +1,10 @@
+{% extends 'page/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'MIS' %}{% endblock %}
+{% block login_check %}
+    <script language="JavaScript" type="text/javascript">
+        {% if request.session.is_login != True %}
+            window.location.href = "/mis/login";
+        {% endif %}
+    </script>
+{% endblock %}

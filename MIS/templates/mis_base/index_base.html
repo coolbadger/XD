@@ -1,0 +1,36 @@
+{% extends 'page/base.html' %}
+{% load i18n %}
+{% block title %}{% trans 'MIS Index' %}{% endblock %}
+{% block extra_script %}
+    <script src="{{ STATIC_URL }}framework/plugin/metisMenu/metisMenu.js"></script>
+    <script src="{{ STATIC_URL }}framework/plugin/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="{{ STATIC_URL }}framework/plugin/layer/layer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}framework/font-awesome/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/style.css"/>
+    <!-- 自定义js -->
+    <script src="{{ STATIC_URL }}js/hplus.js"></script>
+    <script src="{{ STATIC_URL }}js/contabs.js"></script>
+    <!-- 第三方插件 -->
+    <script src="{{ STATIC_URL }}framework/plugin/pace/pace.min.js"></script>
+{% endblock %}
+
+{% block body_class %} class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden"{% endblock %}
+{% block body %}
+    <div id="wrapper">
+        <!--左侧导航开始-->
+        {% include 'mis_component/index/index_nav_left.html' %}
+        <!--左侧导航结束-->
+
+        <!--右侧部分开始-->
+        {% include 'mis_component/index/index_nav_right.html' %}
+        <!--右侧部分结束-->
+
+        <!--右侧边栏开始-->
+        {% include 'mis_component/index/index_sidebar.html' %}
+        <!--右侧边栏结束-->
+        <!--mini聊天窗口开始-->
+        {% include 'mis_component/index/index_chatbox.html' %}
+        <!--mini聊天窗口结束-->
+    </div>
+{% endblock %}
