@@ -12,7 +12,7 @@ def default(request):
 
 
 def master_page(request):
-    return render(request, 'mis_page/default.html')
+    return render(request, 'mis_page/master_page.html')
 
 
 def mis_login(request):

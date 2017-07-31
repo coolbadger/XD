@@ -11,4 +11,8 @@ from XD import settings
 
 def global_settings(request):
     STATIC_URL = settings.STATIC_URL
+
+    PAGE_MASTER_URL = '/mis'
+    PAGE_LOGIN_URL = '/mis/login'
+
     return locals()

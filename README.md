@@ -1,6 +1,10 @@
 # XD
 企业内部 MIS
 
-python3.5+
-django1.11
+python  3.5+
 
+django  1.11
+
+Mysql   5.7
+
+    

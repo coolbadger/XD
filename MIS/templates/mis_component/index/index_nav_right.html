@@ -102,7 +102,8 @@
         </button>
         <nav class="page-tabs J_menuTabs">
             <div class="page-tabs-content">
-                <a href="javascript:;" class="active J_menuTab" data-id="/mis/">{% trans 'MasterPage' %}</a>
+                <a href="javascript:;" class="active J_menuTab"
+                   data-id="{{ PAGE_MASTER_URL }}">{% trans 'MasterPage' %}</a>
             </div>
         </nav>
         <button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
@@ -121,11 +122,11 @@
                 </li>
             </ul>
         </div>
-        <a href="mis/login" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+        <a href="{{ PAGE_LOGIN_URL }}" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
     </div>
     <div class="row J_mainContent" id="content-main">
-        <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="/mis"
-                frameborder="0" data-id="index_v1.html" seamless></iframe>
+        <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="{{ PAGE_MASTER_URL }}"
+                frameborder="0" data-id="{{ PAGE_MASTER_URL }}" seamless></iframe>
     </div>
     <div class="footer">
         <div class="pull-right">&copy; 2014-2015 <a href="http://coolbadger.net/" target="_blank">Badger MIS</a>

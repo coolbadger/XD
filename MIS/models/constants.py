@@ -7,6 +7,13 @@
 # Description	:
 from django.utils.translation import ugettext as _
 
+WEB_AUTHOR_TPYE = (
+    ('N', 'None'),
+    ('M', 'Male'),
+    ('F', 'Female'),
+)
+
+
 PERSON_SEX = (
     ('N', 'None'),
     ('M', 'Male'),
