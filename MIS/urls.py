@@ -17,7 +17,8 @@ from django.conf.urls import url
 from MIS import views
 
 urlpatterns = [
-    url(r'^$', views.master_page),
+    url(r'^$', views.default),
+    url(r'^master_page/', views.master_page),
     url(r'^login/', views.mis_login),
     url(r'^logout/', views.mis_logout),
 ]

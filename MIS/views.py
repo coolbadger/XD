@@ -33,4 +33,4 @@ def mis_login(request):
 def mis_logout(request):
     logout(request)
     request.session['is_login'] = False
-    return HttpResponseRedirect('/mis/')
+    return HttpResponseRedirect('/mis/login')

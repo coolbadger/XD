@@ -9,10 +9,17 @@
 from XD import settings
 
 
-def global_settings(request):
+def constants():
     STATIC_URL = settings.STATIC_URL
 
-    PAGE_MASTER_URL = '/mis'
+    PAGE_MASTER_URL = '/mis/master_page'
     PAGE_LOGIN_URL = '/mis/login'
-
+    PAGE_LOGOUT_URL = '/mis/logout'
     return locals()
+
+
+def global_settings(request):
+    setting_dic = {}
+
+    setting_dic.update(constants())
+    return setting_dic
